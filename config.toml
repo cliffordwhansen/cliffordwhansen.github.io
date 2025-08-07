@@ -1,0 +1,54 @@
+baseURL = "https://nighthawk.co.za/"
+title = "NiGhTHawK"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+[params]
+author = "Clifford W. Hansen"
+description = "Clifford W. Hansen's personal website"
+keywords = "developer,personal"
+info = ["Software Developer", "Linux Systems Administrator", "Deployment Automator", "Home Automation Tinkerer", "JeepLife"]
+gravatar = "cliffordwhansen79@gmail.com"
+since = 2006
+colorScheme = "dark"
+hideColorSchemeToggle = true
+
+# If you want to implement a Content-Security-Policy, add this section
+[params.csp]
+childsrc = ["'self'"]
+fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+formaction = ["'self'"]
+framesrc = ["'self'"]
+imgsrc = ["'self'", "*.gravatar.com"]
+objectsrc = ["'none'"]
+stylesrc = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://fonts.googleapis.com/",
+  "https://cdn.jsdelivr.net/",
+  "https://secure.gravatar.com"
+]
+scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com", "https://secure.gravatar.com"]
+prefetchsrc = ["'self'"]
+# connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
+connectsrc = ["'self'", "https://www.google-analytics.com", "*.gravatar.com"]
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/cliffordwhansen/"
+
+[[params.social]]
+name = "Gitlab"
+icon = "fa fa-2x fa-gitlab"
+weight = 2
+url = "https://gitlab.com/cliffordwhansen/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/cliffordwhansen/"
+
