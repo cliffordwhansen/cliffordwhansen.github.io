@@ -1,0 +1,5 @@
+# Default owner for everything in this repository
+* @cliffordwhansen
+
+# Ensure GitHub metadata and automation changes always request review
+/.github/ @cliffordwhansen
